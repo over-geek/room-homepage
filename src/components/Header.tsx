@@ -1,10 +1,13 @@
 import MobileMenu from "./MobileMenu";
+import Carousel from "./Carousel";
 
 const Header = () => {
   return (
     <>
       <MobileMenu />
-      <div className="header"></div>
+      <div className="header">
+        <Carousel />
+      </div>
     </>
   );
 }
