@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../App.css'
+import logo from '../assets/images/logo.svg'
 
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -52,7 +53,10 @@ const MobileMenu = () => {
         <span className="hamburger-top hamburger-bar hamburger-bar"></span>
         <span className="hamburger-middle hamburger-bar hamburger-bar"></span>
         <span className="hamburger-bottom hamburger-bar hamburger-bar"></span>
-    </button>
+      </button>
+      <a href="#" className='logo'>
+        <img src={logo} alt="Room" />
+      </a>
     </>
   )
 }
