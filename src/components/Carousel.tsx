@@ -8,6 +8,7 @@ import image2 from '../assets/images/mobile-image-hero-2.jpg';
 import image3 from '../assets/images/mobile-image-hero-3.jpg';
 import arrowLeft from '../assets/images/icon-angle-left.svg';
 import arrowRight from '../assets/images/icon-angle-right.svg';
+import arrow from '../assets/images/icon-arrow.svg';
 
 const data = [
   {
@@ -68,7 +69,7 @@ const Carousel = () => {
   );
 
   return (
-    <div>
+    <div className='carousel'>
       <Slider {...settings} ref={sliderRef} className="slider">
         {data.map((item, index) => (
           <div className='slider-item' key={index}>
@@ -79,7 +80,10 @@ const Carousel = () => {
               <div className='slider-description'>
                 <h2>{item.title}</h2>
                 <p>{item.description}</p>
-                <a href={item.link} className='shop-link'>SHOP NOW</a>
+                <a href={item.link} className='shop-link'>
+                  SHOP NOW
+                  <img src={arrow} alt='arrow' />
+                </a>
               </div>
             </div>
           </div>
