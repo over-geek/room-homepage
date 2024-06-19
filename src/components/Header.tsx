@@ -1,15 +1,29 @@
+import styled from "styled-components";
 import MobileMenu from "./MobileMenu";
 import Carousel from "./Carousel";
+import theme from "../utils/theme";
 
 const Header = () => {
   return (
     <>
       <MobileMenu />
-      <div className="header">
+      <HeaderContainer>
         <Carousel />
-      </div>
+      </HeaderContainer>
     </>
   );
 }
+
+const HeaderContainer = styled.div`
+  height: 100vh;
+
+  ${theme.mediaQueries.tablet} {
+    max-height: 80vh;
+  }
+
+  ${theme.mediaQueries.desktop} {
+    height: 65vh;
+  }
+`
 
 export default Header;
