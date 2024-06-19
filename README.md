@@ -32,7 +32,7 @@
 
 # 📖 Rome Homepage <a name="about-project"></a>
 
-**Rome Homepage** is .
+**Rome Homepage** is an e-commerce homepage template design for a decor company.
 
 ## 🛠 Built With <a name="built-with"></a>
 
