@@ -18,8 +18,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -32,7 +30,7 @@
 
 # 📖 Rome Homepage <a name="about-project"></a>
 
-**Rome Homepage** is .
+**Rome Homepage** is an e-commerce homepage template design for a decor company.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,7 +54,7 @@
 
 ### Live Demo Link <a name="demo"></a>
 
-- N/A
+- [Live Link](https://decor-delight.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,14 +93,6 @@ To run the project, execute the following command:
 
 ```sh
   npm run dev
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
- rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
