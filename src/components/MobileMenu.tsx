@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import theme from '../utils/theme'
 import '../App.css'
@@ -30,7 +30,7 @@ const MobileMenu = () => {
     return () => {
       btn?.removeEventListener('click', navToggle)
     }
-  }, [])
+  })
   
   return (
     <>

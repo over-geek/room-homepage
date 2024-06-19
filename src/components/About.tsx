@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import theme from '../utils/theme'
 import about1 from '../assets/images/image-about-dark.jpg'
