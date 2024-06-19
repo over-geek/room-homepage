@@ -16,6 +16,7 @@ const Header = () => {
 
 const HeaderContainer = styled.div`
   height: 100vh;
+  overflow: hidden;
 
   ${theme.mediaQueries.tablet} {
     max-height: 80vh;

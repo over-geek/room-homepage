@@ -91,7 +91,7 @@ const Carousel = () => {
               <SliderDescription>
                 <h2>{item.title}</h2>
                 <p>{item.description}</p>
-                <ShopLink href={item.link}>
+                <ShopLink href={item.link} className='shop-link'>
                   SHOP NOW
                   <img src={arrow} alt='arrow' />
                 </ShopLink>
@@ -204,6 +204,11 @@ const ShopLink = styled.a`
 
   & img {
     width: 40px;
+    color: red;
+  }
+
+  .shop-link:hover {
+    color: white;
   }
 
   ${theme.mediaQueries.mobileSmall} {
